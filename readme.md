@@ -3,6 +3,7 @@
 Założenia:
 
 -możliwość wprowadzania wydatków
--kategoryzaja
--pobieranie danych z banku
 
+-kategoryzaja
+
+-pobieranie danych z banku
