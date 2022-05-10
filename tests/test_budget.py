@@ -4,7 +4,7 @@ from budget.budget import *
 
 def test_NowyWydatek():
     resp = NowyWydatek.add(2,"am","lidl")
-    assert resp == "dodano2"
+    assert resp == "dodano 2"
 
 def test_NowyPrzychod():
     resp = NowyPrzychod(1,"P",5000)

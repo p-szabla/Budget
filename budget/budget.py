@@ -3,7 +3,7 @@ class NowyWydatek(object):
         pass
 
     def add(kwota,kategoria,komentarz):
-        return f"dodano{kwota}"
+        return f"dodano {kwota}"
 
 class NowyPrzychod(object):
     def __init__(self, miesiac, osoba, kwota):
