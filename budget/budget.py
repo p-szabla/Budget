@@ -1,17 +1,10 @@
-class NowyWydatek(object):
-    def __init__(self):
-        pass
+from Income import NowyPrzychod
+from Expense import NowyWydatek
 
-    def add(kwota,kategoria,komentarz):
-        return f"dodano {kwota}"
 
-class NowyPrzychod(object):
-    def __init__(self, miesiac, osoba, kwota):
 
-        self.Lista_M =["nic","Styczen"]
-
-        self.miesiac = miesiac
-        self.osoba = osoba
-        self.kwota = kwota
-    def add(self):
-        return f"{self.Lista_M[self.miesiac]} {self.kwota}" 
+if __name__=="__main__":      
+    resp = NowyPrzychod(1,"P",5000)
+    print(resp.add())
+    resp2 = NowyWydatek
+    print(resp2.add(2,"am","lidl"))

@@ -1,6 +1,7 @@
 import pytest
-from budget.budget import *
-
+# from budget.budget import *
+from Income import NowyPrzychod
+from Expense import NowyWydatek
 
 def test_NowyWydatek():
     resp = NowyWydatek.add(2,"am","lidl")
